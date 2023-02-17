@@ -1,0 +1,10 @@
+:root{
+    --main: rgb(255, 0, 0);
+    --dark: #000000;
+    --light: #ffffff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
