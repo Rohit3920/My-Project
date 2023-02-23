@@ -9,6 +9,23 @@
     margin: 0;
 }
 
+#section-part{
+    height: 900px;
+    overflow: scroll;
+    
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+#intro-img{
+    width: 400px;
+    height: 300px;
+    margin: 0 auto ;
+    border-radius: 50px;
+
+}
+
 #brand-name{
     padding-left:120px ;
 }
