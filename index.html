@@ -1,19 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="mainfiles/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+
+<body class="bg-dark">
+    <div class="bg-info">
+        <nav class="navbar navbar-expand navbar-light bg-info position-relative">
+
+            <img src="img/calculator-logo.png" alt="logo are missing" class="navbar-brand logo">
+            <a href="#" id="brand-name" class="navbar-brand font-weight-bold">All in one Calculator</a>
+
+
+            <button class="navbar-toggler" data-target="#my">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div id="my" class="collapse navbar-collapse">
+                <ul class="navbar-nav ">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Help</a></li>
+                </ul>
+
+                <div class="ml-auto">
+                    <form action="" class="form-inline border border-dark">
+                        <input type="search" id="searchBar" placeholder="Search" class="form-control">
+                        <button class="btn text-primary">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+    <div class="main">
+        <!-- <div class="container"> -->
+            
+        <div class="row no-gutters">
+            <div class="col-2 text-white">
+                <ul class="">
+                    <li class="px-1 py-3 border
+                ">Introduction</li>
+                    <li class="px-1 py-3 border
+                ">Check & Corrent Calculator</li>
+                    <li class="px-1 py-3 border
+                ">BMI Calculator</li>
+                    <li class="px-1 py-3 border
+                ">Area Calculator</li>
+                    <li class="px-1 py-3 border
+                ">Length Calculator</li>
+                    <li class="px-1 py-3 border
+                ">Temperature Calculator</li>
+                    <li class="px-1 py-3 border
+                ">Value Calculator</li>
+                    <li class="px-1 py-3 border
+                ">Data Calculator</li>
+                    <li class="px-1 py-3 border
+                ">Time Calculator</li>
+                    <li class="px-1 py-3 border
+                ">Mass Calculator</li>
+
+                </ul>
+            </div>
+            <div class="col-8 border p-lg-2">
+
+            </div>
+
+
+            <div class="col-2 border  p-1">
+
+            </div>
+        </div>
+    </div>
+   
 
 
     <script src="mainFiles/jQuery/jquery-3.6.1.min.js"></script>
     <script src="structure.js"></script>
 </body>
+
 </html>
